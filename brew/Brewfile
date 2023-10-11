@@ -1,0 +1,69 @@
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Args
+cask_args appdir: '/Applications'
+
+# Taps
+tap 'homebrew/core'
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions' # alternative versions of Casks. etc) alfred, firefox, intellji
+
+tap 'universal-ctags/universal-ctags' # ctags
+
+# Binaries
+
+## shell
+brew 'fzf'
+brew 'grep'
+brew 'ripgrep'
+brew 'the_silver_searcher'
+brew 'tmux'
+brew 'tree'
+brew 'zsh'
+brew 'zsh-completions'
+brew 'mas'
+brew 'htop'
+brew 'starship'
+brew 'neovim'
+
+## git
+brew 'git'
+brew 'gh'
+
+## python stuff 
+brew 'python@3.8'
+brew 'pyenv'
+
+# docker
+brew 'docker'
+brew 'docker-compose'
+
+## font - https://github.com/Homebrew/homebrew-cask-fonts/tree/master/Casks
+cask 'font-fantasque-sans-mono-nerd-font'
+cask 'font-fira-code-nerd-font'
+cask 'font-hack-nerd-font'
+
+
+# Quicklook
+cask 'grammarly'
+cask 'albert'
+cask 'telegram'
+cask 'iterm2'
+cask 'mendeley'
+cask 'visual-studio-code'
+cask 'notion'
+cask 'obsidian'
+cask '1password'
+cask 'cleanshot'
+cask 'google-chrome'
+cask 'the-unarchiver'
+cask 'zoom'
+cask 'microsoft-teams'
+cask 'google-drive'
+cask 'zotero'
+cask 'unity-hub'
+cask 'arc'
+cask 'discord'
+cask 'docker'

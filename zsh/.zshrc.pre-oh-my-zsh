@@ -1,0 +1,5 @@
+# terminal style settings
+PROMPT=' %F{green}λ%f %B%F{240}%1~%f%b '
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+

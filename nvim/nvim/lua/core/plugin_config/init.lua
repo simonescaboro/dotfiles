@@ -10,5 +10,8 @@ require("core.plugin_config.lsp_config")
 require("core.plugin_config.comments")
 require("core.plugin_config.illuminate")
 require("core.plugin_config.mini-indentscope")
-
-
+require("core.plugin_config.nvim-cmp")
+require("core.plugin_config.conform")
+require("core.plugin_config.codesnap")
+require("core.plugin_config.obsidian")
+require("core.plugin_config.zenmode")

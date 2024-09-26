@@ -2,5 +2,5 @@
 require("core.keymaps")
 -- manage the plugins manager
 require("core.plugins")
--- manage plugin files
+-- manage plugins files
 require("core.plugin_config")
